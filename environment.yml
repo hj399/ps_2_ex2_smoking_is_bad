@@ -1,0 +1,12 @@
+name: smoke
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - jupyter
+  - pre-commit
